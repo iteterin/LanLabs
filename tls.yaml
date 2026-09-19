@@ -1,0 +1,8 @@
+tls:
+  certificates:
+    - certFile: /srv/certs/cert
+      keyFile: /srv/certs/key
+      stores:
+        - default
+
+#create cert with https://github.com/filosottile/mkcert
